@@ -107,6 +107,10 @@
 					"when": "view == jsonOutline"
 				},
 				{
+					"command": "jsonOutline.removeNode",
+					"when": "view == jsonOutline"
+				},
+				{
 					"command": "jsonOutline.refreshNode",
 					"when": "view == jsonOutline",
 					"group": "inline"
@@ -133,6 +137,10 @@
 			{
 				"command": "jsonOutline.renameNode",
 				"title": "Rename"
+			},
+			{
+				"command": "jsonOutline.removeNode",
+				"title": "Remove"
 			}
 		],
 		"languages": [
